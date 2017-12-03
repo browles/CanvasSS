@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "babel --watch CanvasSS.js -o CanvasSS.min.js",
-    "watchapp": "babel --watch app.js -o app.min.js",
-    "start": "npm run watch & npm run watchapp",
+    "watchapp": "babel --watch example.js -o example.min.js",
+    "start": "npm run watch && npm run watchapp",
     "build": "babel CanvasSS.js -o CanvasSS.min.js && uglifyjs CanvasSS.min.js -o CanvasSS.min.js"
   },
   "author": "",
